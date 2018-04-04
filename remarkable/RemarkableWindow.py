@@ -47,7 +47,7 @@ try:
     from gtkspellcheck import SpellChecker
     spellcheck_enabled = True
 except:
-    print("*Spellchecking not enabled.\n*To enable spellchecking install pygtkspellcheck\n*https://pypi.python.org/pypi/pygtkspellcheck/")
+    print("*Spellchecking not enabled.\n*To enable spellchecking install python-gtkspellcheck.\npacman -S --asdeps python-gtkspellcheck")
     spellcheck_enabled = False
 
 import logging
