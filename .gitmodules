@@ -1,0 +1,3 @@
+[submodule "aur/remarkable"]
+	path = aur/remarkable
+	url = https://aur.archlinux.org/remarkable.git
