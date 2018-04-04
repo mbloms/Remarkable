@@ -36,7 +36,7 @@ import pdfkit
 import re, subprocess, datetime, os, webbrowser, _thread, sys, locale
 import tempfile
 import traceback
-import styles
+from remarkable import styles
 import unicodedata
 import warnings
 import datetime
